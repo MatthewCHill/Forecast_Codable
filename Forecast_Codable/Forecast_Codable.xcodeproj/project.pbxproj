@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3405301729AD5F3400149174 /* Day.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3405301629AD5F3400149174 /* Day.swift */; };
 		413CA70727B0DA1C00461FE3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413CA70627B0DA1C00461FE3 /* AppDelegate.swift */; };
 		413CA70927B0DA1C00461FE3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413CA70827B0DA1C00461FE3 /* SceneDelegate.swift */; };
 		413CA70E27B0DA1C00461FE3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 413CA70C27B0DA1C00461FE3 /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3405301629AD5F3400149174 /* Day.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day.swift; sourceTree = "<group>"; };
 		413CA70327B0DA1C00461FE3 /* Forecast_Codable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Forecast_Codable.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		413CA70627B0DA1C00461FE3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		413CA70827B0DA1C00461FE3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,6 +41,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3405301829AD5F3C00149174 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3405301629AD5F3400149174 /* Day.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		413CA6FA27B0DA1C00461FE3 = {
 			isa = PBXGroup;
 			children = (
@@ -62,6 +72,7 @@
 				413CA71A27B0DA5600461FE3 /* Supporting Files */,
 				413CA70C27B0DA1C00461FE3 /* Main.storyboard */,
 				413CA71127B0DA1F00461FE3 /* LaunchScreen.storyboard */,
+				3405301829AD5F3C00149174 /* Model */,
 			);
 			path = Forecast_Codable;
 			sourceTree = "<group>";
@@ -160,6 +171,7 @@
 				413CA70727B0DA1C00461FE3 /* AppDelegate.swift in Sources */,
 				413CA72327B0DC4300461FE3 /* DayDetailsViewController.swift in Sources */,
 				413CA70927B0DA1C00461FE3 /* SceneDelegate.swift in Sources */,
+				3405301729AD5F3400149174 /* Day.swift in Sources */,
 				413CA72527B0DC7E00461FE3 /* DayForcastTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
