@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		3405301729AD5F3400149174 /* Day.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3405301629AD5F3400149174 /* Day.swift */; };
+		3405301A29AD60F200149174 /* DayController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3405301929AD60F200149174 /* DayController.swift */; };
+		3405301D29AD612800149174 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3405301C29AD612800149174 /* Constants.swift */; };
 		413CA70727B0DA1C00461FE3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413CA70627B0DA1C00461FE3 /* AppDelegate.swift */; };
 		413CA70927B0DA1C00461FE3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413CA70827B0DA1C00461FE3 /* SceneDelegate.swift */; };
 		413CA70E27B0DA1C00461FE3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 413CA70C27B0DA1C00461FE3 /* Main.storyboard */; };
@@ -19,6 +21,8 @@
 
 /* Begin PBXFileReference section */
 		3405301629AD5F3400149174 /* Day.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day.swift; sourceTree = "<group>"; };
+		3405301929AD60F200149174 /* DayController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayController.swift; sourceTree = "<group>"; };
+		3405301C29AD612800149174 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		413CA70327B0DA1C00461FE3 /* Forecast_Codable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Forecast_Codable.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		413CA70627B0DA1C00461FE3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		413CA70827B0DA1C00461FE3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +53,14 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		3405301B29AD60F500149174 /* ModelController */ = {
+			isa = PBXGroup;
+			children = (
+				3405301929AD60F200149174 /* DayController.swift */,
+			);
+			path = ModelController;
+			sourceTree = "<group>";
+		};
 		413CA6FA27B0DA1C00461FE3 = {
 			isa = PBXGroup;
 			children = (
@@ -73,6 +85,7 @@
 				413CA70C27B0DA1C00461FE3 /* Main.storyboard */,
 				413CA71127B0DA1F00461FE3 /* LaunchScreen.storyboard */,
 				3405301829AD5F3C00149174 /* Model */,
+				3405301B29AD60F500149174 /* ModelController */,
 			);
 			path = Forecast_Codable;
 			sourceTree = "<group>";
@@ -84,6 +97,7 @@
 				413CA70827B0DA1C00461FE3 /* SceneDelegate.swift */,
 				413CA70F27B0DA1F00461FE3 /* Assets.xcassets */,
 				413CA71427B0DA1F00461FE3 /* Info.plist */,
+				3405301C29AD612800149174 /* Constants.swift */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
@@ -168,9 +182,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3405301A29AD60F200149174 /* DayController.swift in Sources */,
 				413CA70727B0DA1C00461FE3 /* AppDelegate.swift in Sources */,
 				413CA72327B0DC4300461FE3 /* DayDetailsViewController.swift in Sources */,
 				413CA70927B0DA1C00461FE3 /* SceneDelegate.swift in Sources */,
+				3405301D29AD612800149174 /* Constants.swift in Sources */,
 				3405301729AD5F3400149174 /* Day.swift in Sources */,
 				413CA72527B0DC7E00461FE3 /* DayForcastTableViewCell.swift in Sources */,
 			);
