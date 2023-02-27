@@ -23,6 +23,22 @@ class DayController {
         guard let finalURL = urlComponents?.url else {completion(nil); return}
         print(finalURL)
         
-        
+        URLSession.shared.dataTask(with: finalURL) { dayData, _, error in
+            
+            if let error = error {
+                print(error.localizedDescription)
+                completion(nil)
+                return
+            }
+            guard let data = dayData else {print("There was an error recieving the Data") ; completion(nil); return}
+            
+            do {
+                let topLevelDictionary = try JSONDecoder().decode(TopLevelDictionary.self, from: data)
+                completion(topLevelDictionary)
+            } catch {
+                print(error.localizedDescription)
+                completion(nil)
+            }
+        }.resume()
     }
-} //End of class
+}//End of class
